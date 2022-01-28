@@ -1,3 +1,5 @@
+# start here
+---
 sudo: required
 language: generic
 
@@ -9,6 +11,3 @@ before_install:
 
 script:
   - docker run -e CI=true USERNAME/docker-react npm run test -- --coverage
-    
-
-
